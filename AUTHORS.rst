@@ -33,21 +33,6 @@ the maintainer should theses names be changed to something more relevant.
 * Marcus Weseloh
 * Jacob Richardson
 * Krzysztof Grodzicki
-* Ted Liang
-* fsx999
-* Andrea Bravetti
-* Dale O'Brien
-* Bertrand Bordage
-* "tomscytale"
-* Nick Pack
-* Jeff Tchang
-* Andreas Stocker
-* Dylan Jay
-* mthornhill
-* Andrea Bravetti
-* Stéphane Bisinger
-* Ling Thio
-* Edwar Baron
 
 Special thanks
 ==============

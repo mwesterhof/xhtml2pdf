@@ -4,8 +4,6 @@ pisa.egg-info
 .pydevproject
 .pydevproject.bak
 .settings/
-.tox
-nosetests.xml
 PIL-1.1.7-py2.7-linux-x86_64.egg/
 bin/
 html5lib-0.90-py2.7.egg/
@@ -23,5 +21,3 @@ testrender/output/
 htmlcov/
 xhtml2pdf.egg-info
 *.pdf
-tests/_trial_temp/
-.idea/*

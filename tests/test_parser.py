@@ -19,19 +19,6 @@ class TestCase(unittest.TestCase):
         r = pisaParser(_data, c)
         self.assertEqual(c, r)
 
-    def test_getFile(self):
-        c = pisaContext(".")
-        r = pisaParser(_data, c)
-        self.assertEqual(c.getFile(None), None)
-
-    def test_height_as_list(self):
-        """Asserts attributes like 'height: 10px !important" are parsed"""
-        c = pisaContext(".")
-        data = "<p style='height: 10px !important;width: 10px !important'>test</p>"
-        r = pisaParser(data, c)
-        self.assertEqual(c, r)
-
-
 def buildTestSuite():
     return unittest.defaultTestLoader.loadTestsFromName(__name__)
 

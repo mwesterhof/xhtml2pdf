@@ -2,19 +2,6 @@
 xhtml2pdf
 *********
 
-THIS PROJECT WAS INHERITED BY NECESSITY - PLEASE DO NOT CONTACT ME DIRECTLY
-FOR HELP BUT USE THE MAILING LIST INSTEAD.
-
-I picked up the code because I needed to patch it, and nobody was around to 
-merge my pull requests in. So now 
-I can merge pull requests in, but I did not write the code.
-
-If you think you can do a better job maintaing this project, feel free to let me know
-and I'll give you commit rights (or ownership, or whatever).
-
-Thanks!
-
-
 HTML/CSS to PDF converter based on Python
 
 About
@@ -33,7 +20,7 @@ Requirements
 
 #. `Reportlab Toolkit 2.2+ <http://www.reportlab.org/>`_
 #. `html5lib 0.11.1+ <http://code.google.com/p/html5lib/>`_
-#. `PyPDF2 1.19+ (optional) <https://pypi.python.org/pypi/PyPDF2>`_
+#. `pyPdf 1.11+ (optional) <http://pybrary.net/pyPdf/>`_
 
    All requirements are listed in ``requirements.txt`` file.
 
@@ -43,7 +30,7 @@ Development environment
 Python, virtualenv and dependencies
 -----------------------------------
 
-#. Install Python 2.6.x or 2.7.x. Installation steps depends on your operating system.
+#. Install Python 2.6.x or 2.7.x. Installation steps depends on yours operating system.
 
 #. Install Pip, the python package installer::
 
@@ -61,7 +48,7 @@ Python, virtualenv and dependencies
 #. Create virtualenv for the project. This can be inside the project directory, but cannot be under
    version control::
 
-    virtualenv --distribute xhtml2pdfenv --python=python2
+    virtualenv --distribute xhtml2pdfenv
 
 #. Activate your virtualenv::
 
@@ -75,13 +62,13 @@ Python, virtualenv and dependencies
 
     pip install -r requirements.txt
 
-#. Run tests to check your configuration::
+#. Run tests to check you configuration::
 
     nosetests --with-coverage
 
-   You should have a log with success status::
+   You should have log with success status::
 
-    Ran 36 tests in 0.322s
+    Ran 35 tests in 0.322s
 
     OK
 
